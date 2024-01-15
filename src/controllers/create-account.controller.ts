@@ -37,7 +37,7 @@ export class CreateAccountController {
 
     if (userWithSameEmail) {
       throw new ConflictException(
-        'User with same e-mail address açready exists.',
+        'User with same e-mail address already exists.',
       )
     }
 
